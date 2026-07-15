@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    scroll-behavior: smooth;
+}
+.card-body {
+    border-radius: 69px 4px 47px 0px;
+    -moz-border-radius: 69px 4px 47px 0px;
+    -webkit-border-radius: 69px 4px 47px 0px;
+    border: 9px solid #50b498;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .card-body:hover {
+    -webkit-box-shadow: inset 2px 1px 43px 1px rgba(156, 219, 166, 1);
+    -moz-box-shadow: inset 2px 1px 43px 1px rgba(156, 219, 166, 1);
+    box-shadow: inset 2px 1px 43px 1px rgba(156, 219, 166, 1);
+  }
+
+  #surah,
+  .navbar{
+    background-color: #50b498;
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
+  .carousel-caption {
+    bottom: 380px;
+    z-index: 2;
+  }
+  .carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: #fff;
+  }
+
+  .carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .carousel-caption a , .btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #50b498;
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+   .card-footer{
+    background: #50b498;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+   }
+  .ayat{
+    justify-content: center;
+  }
+  span{
+    color: #50b498;
+  }
+  hr{
+    border: 1px solid #50b498;
+  }
